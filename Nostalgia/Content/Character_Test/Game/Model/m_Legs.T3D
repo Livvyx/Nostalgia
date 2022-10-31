@@ -1,0 +1,36 @@
+Begin Object Class=/Script/Engine.Material Name="m_Legs"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Textures/PixelTextureGrid_96_Legs.PixelTextureGrid_96_Legs"'
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=5195717F4AA5AF443720EE878093FD38
+      Material=Material'"m_Legs"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.800000,G=0.800000,B=0.800000,A=0.000000)
+      ExpressionGUID=173C6C0D4FA56A3B39AAF088D5B9A8B3
+      MaterialExpressionEditorX=-400
+      MaterialExpressionGuid=DA2F36C44E0705724F725D8406C039F9
+      Material=Material'"m_Legs"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithSkeletalMesh=True
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=9A292AB5436EE79E7DBB219D15DBDF53
+   ReferencedTextureGuids(0)=32F475E84D551E939417389BB7E24BD6
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="PixelTextureGrid_96_Legs",TextureReference="/Game/Textures/PixelTextureGrid_96_Legs.PixelTextureGrid_96_Legs")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=7EFDF6F740FE764FE5291CA8C3DE6E48
+End Object

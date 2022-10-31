@@ -1,0 +1,36 @@
+Begin Object Class=/Script/Engine.Material Name="m_Arms"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.800000,G=0.800000,B=0.800000,A=0.000000)
+      ExpressionGUID=C599BA2849C1CC436A4A3B85626B75C7
+      MaterialExpressionEditorX=-464
+      MaterialExpressionGuid=EC436DAA4F09159B2E61288E9FB937C1
+      Material=Material'"m_Arms"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Textures/PixelTextureGrid_96_-_Arms.PixelTextureGrid_96_-_Arms"'
+      MaterialExpressionEditorX=-528
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=EA6F5687485CEEFD2AE032A3B26BC9A0
+      Material=Material'"m_Arms"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithSkeletalMesh=True
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=D7D2BB844679246A87ABD08A22A2832A
+   ReferencedTextureGuids(0)=63C55AD946421D06EC9671B78E27C245
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="PixelTextureGrid_96_-_Arms",TextureReference="/Game/Textures/PixelTextureGrid_96_-_Arms.PixelTextureGrid_96_-_Arms")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=094FEF2C474B7C98C1ED09A69504640B
+End Object
