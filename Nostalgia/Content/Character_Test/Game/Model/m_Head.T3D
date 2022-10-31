@@ -1,0 +1,43 @@
+Begin Object Class=/Script/Engine.Material Name="m_Head"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Textures/PixelTextureGrid_96_Head2.PixelTextureGrid_96_Head2"'
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=F3A1925740FFF1EC2FA863BCF81EE26D
+      Material=Material'"m_Head"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.800000,G=0.800000,B=0.800000,A=0.000000)
+      ExpressionGUID=F08FA4C54101C68F02872E8831134F9B
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=9A2F1BF14F1FDD14E4C957B16665C96E
+      Material=Material'"m_Head"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Anisotropy=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   PixelDepthOffset=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithSkeletalMesh=True
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=F31CAF7B4A5D48633F7CA490076E42B9
+   ReferencedTextureGuids(0)=00E4776A4A4AA92BE52930B43325E1CE
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="PixelTextureGrid_96_Head2",TextureReference="/Game/Textures/PixelTextureGrid_96_Head2.PixelTextureGrid_96_Head2")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global", True))
+   LightingGuid=7E8D706B42C37F2A17D6CBAAE0354AF7
+End Object
